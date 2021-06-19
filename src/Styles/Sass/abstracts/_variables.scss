@@ -1,0 +1,72 @@
+// src/Styles/Sass/layout
+$srcPath: "../../../";
+
+/* Colors */
+$white-100: hsl(0, 0%, 10%);
+$white-200: hsl(0, 0%, 20%);
+$white-300: hsl(0, 0%, 30%);
+$white-400: hsl(0, 0%, 40%);
+$white-500: hsl(0, 0%, 50%);
+$white-600: hsl(0, 0%, 60%);
+$white-700: hsl(0, 0%, 70%);
+$white-800: hsl(0, 0%, 80%);
+$white-900: hsl(0, 0%, 90%);
+$white: hsl(0, 0%, 100%);
+
+$primary-100: hsl(238, 20%, 10%);
+$primary-200: hsl(238, 20%, 20%);
+$primary-300: hsl(238, 20%, 30%);
+$primary-400: hsl(238, 30%, 40%);
+$primary-500: hsl(238, 20%, 50%);
+$primary-600: hsl(238, 20%, 60%);
+$primary-700: hsl(238, 20%, 70%);
+$primary-800: hsl(238, 20%, 80%);
+$primary-900: hsl(238, 20%, 90%);
+$primary: $primary-500;
+
+$secondary-100: hsl(29, 99%, 10%);
+$secondary-200: hsl(29, 99%, 20%);
+$secondary-300: hsl(29, 99%, 30%);
+$secondary-400: hsl(29, 99%, 40%);
+$secondary-500: hsl(29, 99%, 50%);
+$secondary-600: hsl(29, 99%, 60%);
+$secondary-700: hsl(29, 99%, 70%);
+$secondary-800: hsl(29, 99%, 80%);
+$secondary-900: hsl(29, 99%, 90%);
+$secondary: $secondary-500;
+
+/* Text colors */
+$primary-text-100: $white-100;
+$primary-text-200: $white-200;
+$primary-text-300: $white-300;
+$primary-text-400: $white-400;
+$primary-text-500: $white-500;
+$primary-text-600: $white-600;
+$primary-text-700: $white-700;
+$primary-text-800: $white-800;
+$primary-text-900: $white-900;
+$primary-text: $white;
+
+/* Generic values */
+$smallFontSize: 0.9em;
+$mediumFontSize: 2em;
+$bigFontSize: 4em;
+
+/* Typographies */
+$bodyFontSize: 16px;
+$bodyFontFamily: "Open Sans", -system-ui, sans-serif;
+$bodyFont: $bodyFontSize $bodyFontFamily;
+
+/* Images */
+$zedBg: $srcPath + "Images/Backgrounds/zed.png";
+$zedOverlayColor: rgba($primary-100, 0.75);
+
+/* Sidebar */
+$sidebarWidth: 30%;
+$sidebarBgColor: rgba($primary-200, 0.35);
+
+$sidebarContentLeft: 10%;
+
+$verticalSliderBorder: rgba($white, 0.05);
+$verticalSliderBorderHover: $secondary
+	linear-gradient(135deg, $secondary, $primary);

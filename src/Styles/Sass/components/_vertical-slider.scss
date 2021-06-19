@@ -1,0 +1,76 @@
+.vertical-slider-container {
+	width: 105%;
+	overflow: hidden;
+}
+
+.vertical-slider {
+	width: 95%;
+
+	&__item {
+		position: relative;
+		left: 0;
+
+		padding: 2px;
+		border: 2px solid $verticalSliderBorder;
+		transition: left 0.15s;
+
+		&,
+		&::before,
+		&__img {
+			border-radius: 5px;
+		}
+
+		&::before,
+		&::after {
+			content: "";
+			position: absolute;
+
+			width: 100%;
+			height: 100%;
+		}
+
+		&::before {
+			inset: 0 0 0 0;
+			z-index: -1;
+
+			opacity: 0;
+			visibility: hidden;
+
+			background: $verticalSliderBorderHover;
+			transition: opacity 0.15s, visibility 0.15s, border-color 0.15s,
+				box-shadow 0.15s;
+		}
+
+		&::after {
+			top: 0;
+			left: 0;
+			z-index: 5;
+		}
+
+		&.active {
+			left: 5%;
+			border-color: transparent;
+
+			&::before {
+				opacity: 1;
+				visibility: visible;
+				box-shadow: -5px 5px 30px rgba(0, 0, 0, 0.25);
+			}
+
+			&::after {
+				left: -5%;
+				width: 105%;
+			}
+		}
+
+		&__img {
+			display: block;
+			object-fit: cover;
+			user-select: none;
+
+			&::selection {
+				background: transparent;
+			}
+		}
+	}
+}

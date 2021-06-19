@@ -1,0 +1,146 @@
+@use '../abstracts/variables';
+
+.section {
+	min-height: 100vh;
+	position: relative;
+
+	&::before {
+		content: "";
+		position: fixed;
+		inset: 0 0 0 0;
+		z-index: 1;
+
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	&.zed-bg {
+		background: url($zedBg) 0 0 / cover no-repeat;
+
+		&::before {
+			background-color: $zedOverlayColor;
+		}
+	}
+
+	&__content {
+		position: relative;
+		z-index: 5;
+	}
+
+	/* Section - Sidebar */
+	&__sidebar {
+		position: fixed;
+		inset: 0 0 0 0;
+
+		width: $sidebarWidth;
+		height: 100%;
+
+		padding-top: 2.5%;
+		background-color: $sidebarBgColor;
+		backdrop-filter: blur(5px);
+
+		&__content {
+			position: relative;
+			left: $sidebarContentLeft;
+		}
+
+		&__headline {
+			margin: 2rem 0;
+
+			&__text {
+				position: relative;
+				color: $primary-text-600;
+				font-size: 0.9em;
+				text-transform: uppercase;
+				padding-right: 5%;
+
+				&::before {
+					content: "";
+					position: absolute;
+					top: 50%;
+					right: -65%;
+					transform: translateY(-50%);
+
+					width: 65%;
+					height: 0.15em;
+					background-color: rgba($primary-text-600, 0.5);
+				}
+			}
+		}
+
+		&__vertical-slider {
+			&__item {
+				margin-bottom: 10%;
+				cursor: pointer;
+			}
+		}
+	}
+
+	/* Section - Main content */
+	&__main-content {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+
+		width: #{100% - $sidebarWidth};
+		min-height: 100vh;
+
+		margin-left: $sidebarWidth;
+		padding: 0 5%;
+
+		&__text {
+			max-width: 45ch;
+			text-align: right;
+		}
+
+		&__title {
+			margin-top: 5%;
+		}
+
+		&__desc {
+			margin: 1em 0 1em auto;
+			max-width: 60%;
+		}
+
+		&__list {
+			list-style: none;
+
+			&__item {
+				display: inline-block;
+				padding: 0.5em;
+				margin-left: 2em;
+
+				background-color: $primary-100;
+				color: $primary-text-800;
+				font-size: $smallFontSize;
+				text-transform: uppercase;
+				border-radius: 5px;
+
+				&:first-of-type {
+					margin-left: 0;
+				}
+			}
+		}
+
+		&__video {
+			width: 80%;
+			max-width: 70ch;
+			height: auto;
+			aspect-ratio: 16 / 9;
+
+			margin: 2em 0;
+			border: 1px solid rgba($primary, 0.1);
+			border-radius: 10px;
+		}
+
+		&__skills {
+			&__item {
+				width: 3em;
+				height: 3em;
+				object-fit: contain;
+				border-radius: 5px;
+			}
+		}
+	}
+}
