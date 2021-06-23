@@ -3,12 +3,16 @@ import React from "react";
 export default function MainContent({ sliderItems, comboId }) {
 	const selectedCombo =
 		sliderItems.find((item) => item.id === comboId) || false;
+	if (selectedCombo) {
+		document.title = `Combo ${selectedCombo.id} - Zed Combos`;
+	}
+
 	return (
 		<div className="section__main-content">
 			{selectedCombo ? (
 				<>
 					<h2 className="title section__main-content__title featured-text">
-						{selectedCombo.name}
+						{selectedCombo.name} {selectedCombo.id}
 					</h2>
 					<ul className="section__main-content__list">
 						<li className="section__main-content__list__item">
@@ -18,7 +22,7 @@ export default function MainContent({ sliderItems, comboId }) {
 							Difficulty: {selectedCombo.difficulty}
 						</li>
 					</ul>
-					{selectedCombo.video && (
+					{selectedCombo.videoId && (
 						<iframe
 							className="section__main-content__video"
 							width="400"
@@ -31,22 +35,34 @@ export default function MainContent({ sliderItems, comboId }) {
 					)}
 
 					{selectedCombo.steps && (
-						<div>
-							<h2 className="title medium">Steps</h2>
-							<div className="section__main-content__skills">
-								{selectedCombo.steps.map((step, index) => (
-									<div
-										key={index}
-										className="section__main-content__skills__item">
-										<img
+						<div className="section__main-content__skills">
+							<h2 className="title medium section__main-content__skills__title">
+								Steps
+							</h2>
+							<div className="section__main-content__skills__content">
+								{selectedCombo.steps.map((step, index) => {
+									step.skillName =
+										step.skillName.charAt(0).toUpperCase() +
+										step.skillName.slice(1);
+									return (
+										<div
 											key={index}
-											className="section__main-content__skills__item"
-											src={step.skillImage}
-											alt={step.skillName}
-											title={`Spell: ${step.skillName}`}
-										/>
-									</div>
-								))}
+											className={`section__main-content__skills__item ${
+												step.skillName === "AA" ? "sword" : ""
+											}`}>
+											{step.skillName !== "AA" && (
+												<div class="section__main-content__skills__item__border"></div>
+											)}
+											<img
+												key={index}
+												src={step.skillImage}
+												alt={step.skillName}
+												title={`Spell: ${step.skillName}`}
+												draggable="false"
+											/>
+										</div>
+									);
+								})}
 							</div>
 						</div>
 					)}

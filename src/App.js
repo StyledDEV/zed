@@ -34,6 +34,12 @@ export default function App() {
 		});
 	};
 
+	const toggleSidebar = (button, event) => {
+		const sidebar = button.nextSibling;
+		button.classList.toggle("active");
+		sidebar.classList.toggle("active");
+	};
+
 	return (
 		<Router>
 			<div className="wrapper">
@@ -46,6 +52,7 @@ export default function App() {
 							logo={Logo}
 							sliderItems={combos}
 							showCombo={showCombo}
+							toggleSidebar={toggleSidebar}
 						/>
 					)}
 				/>
@@ -62,6 +69,7 @@ export default function App() {
 								sliderItems={combos}
 								showCombo={showCombo}
 								comboId={findCombo(paramId)}
+								toggleSidebar={toggleSidebar}
 							/>
 						);
 					}}

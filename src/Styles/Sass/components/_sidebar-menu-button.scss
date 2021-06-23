@@ -1,0 +1,49 @@
+.sidebar-menu-button {
+	position: fixed;
+	top: 5%;
+	left: 5%;
+	z-index: 200;
+	display: none;
+
+	width: 3em;
+	height: 3em;
+	border-radius: 2.5px;
+	background-color: rgba($primary-200, 0.5);
+	cursor: pointer;
+
+	&.active {
+		&::before,
+		&::after {
+			top: 50%;
+		}
+
+		&::before {
+			transform: translate(-50%, -50%) rotate(-45deg);
+		}
+
+		&::after {
+			transform: translate(-50%, -50%) rotate(45deg);
+		}
+	}
+
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+
+		width: 80%;
+		height: 3px;
+		background-color: $primary-text;
+		transition: all 0.15s;
+	}
+
+	&::before {
+		top: 30%;
+	}
+
+	&::after {
+		top: 60%;
+	}
+}

@@ -1,0 +1,73 @@
+@media screen and (max-width: 920px) {
+	/* Components */
+	.sidebar-menu-button {
+		display: block;
+	}
+
+	/* Section */
+	.section {
+		&.zed-bg {
+			animation: none;
+			background-position: center;
+			background-attachment: fixed;
+		}
+
+		&__sidebar {
+			width: $sidebarWidthMobile;
+			left: -#{$sidebarWidthMobile + 10%};
+			transition: left 0.15s;
+
+			&__headline__text::before {
+				width: 45%;
+				right: -45%;
+			}
+
+			&.active {
+				left: 0;
+			}
+		}
+
+		&__main-content {
+			display: inline-block;
+			width: 100%;
+
+			margin-left: 0;
+			margin-top: 10%;
+			text-align: center;
+
+			&__text,
+			&__desc {
+				max-width: 90%;
+				text-align: center;
+			}
+
+			&__text,
+			&__desc,
+			&__video,
+			&__skills,
+			&__skills__title {
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			&__video {
+				display: block;
+			}
+
+			&__skills {
+				&__content {
+					display: block;
+					max-width: 100%;
+				}
+
+				&__item {
+					display: inline-block;
+				}
+
+				&__title {
+					text-align: center;
+				}
+			}
+		}
+	}
+}

@@ -4,7 +4,7 @@ import VerticalSlider from "./VerticalSlider";
 
 export default function Sidebar({ logo, sliderItems, comboId, showCombo }) {
 	return (
-		<div className="section__sidebar">
+		<div className="sidebar section__sidebar">
 			<Logo logo={logo} altText="Zed logo" />
 
 			<div className="section__sidebar__content">

@@ -13,15 +13,15 @@ $white-800: hsl(0, 0%, 80%);
 $white-900: hsl(0, 0%, 90%);
 $white: hsl(0, 0%, 100%);
 
-$primary-100: hsl(238, 20%, 10%);
-$primary-200: hsl(238, 20%, 20%);
-$primary-300: hsl(238, 20%, 30%);
+$primary-100: hsl(238, 30%, 10%);
+$primary-200: hsl(238, 30%, 20%);
+$primary-300: hsl(238, 30%, 30%);
 $primary-400: hsl(238, 30%, 40%);
-$primary-500: hsl(238, 20%, 50%);
-$primary-600: hsl(238, 20%, 60%);
-$primary-700: hsl(238, 20%, 70%);
-$primary-800: hsl(238, 20%, 80%);
-$primary-900: hsl(238, 20%, 90%);
+$primary-500: hsl(238, 30%, 50%);
+$primary-600: hsl(238, 30%, 60%);
+$primary-700: hsl(238, 30%, 70%);
+$primary-800: hsl(238, 30%, 80%);
+$primary-900: hsl(238, 30%, 90%);
 $primary: $primary-500;
 
 $secondary-100: hsl(29, 99%, 10%);
@@ -34,6 +34,17 @@ $secondary-700: hsl(29, 99%, 70%);
 $secondary-800: hsl(29, 99%, 80%);
 $secondary-900: hsl(29, 99%, 90%);
 $secondary: $secondary-500;
+
+$tertiary-100: hsl(54, 100%, 10%);
+$tertiary-200: hsl(54, 100%, 20%);
+$tertiary-300: hsl(54, 100%, 30%);
+$tertiary-400: hsl(54, 100%, 40%);
+$tertiary-500: hsl(54, 100%, 50%);
+$tertiary-600: hsl(54, 100%, 60%);
+$tertiary-700: hsl(54, 100%, 70%);
+$tertiary-800: hsl(54, 100%, 80%);
+$tertiary-900: hsl(54, 100%, 90%);
+$tertiary: $tertiary-500;
 
 /* Text colors */
 $primary-text-100: $white-100;
@@ -63,10 +74,13 @@ $zedOverlayColor: rgba($primary-100, 0.75);
 
 /* Sidebar */
 $sidebarWidth: 30%;
-$sidebarBgColor: rgba($primary-200, 0.35);
+$sidebarWidthMobile: 60%;
+$sidebarBgColor: rgba($primary-100, 0.75);
 
 $sidebarContentLeft: 10%;
 
 $verticalSliderBorder: rgba($white, 0.05);
 $verticalSliderBorderHover: $secondary
 	linear-gradient(135deg, $secondary, $primary);
+
+$stepsArrowUrl: $srcPath + "Images/Icons/arrow-right.png";

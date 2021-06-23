@@ -10,6 +10,7 @@
 @import "./base/_body";
 
 // Components
+@import "./components/_sidebar-menu-button";
 @import "./components/_text";
 @import "./components/_logo";
 @import "./components/_vertical-slider";
@@ -19,3 +20,6 @@
 
 // Layout
 @import "./layout/_section";
+
+// Responsive Web Design / Media queries
+@import "./responsive/_responsive";

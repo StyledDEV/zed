@@ -17,7 +17,7 @@ export default function VerticalSliderItem({
 				<div
 					ref={sliderItemRef}
 					className={`vertical-slider__item section__sidebar__vertical-slider__item ${
-						comboId === selectedComboId && "active"
+						comboId === selectedComboId ? "active" : ""
 					}`}
 					title={itemTitle}
 					onClick={() => showCombo(sliderItemRef.current)}>

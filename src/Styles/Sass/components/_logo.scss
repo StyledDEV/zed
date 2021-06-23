@@ -4,7 +4,8 @@
 	padding: 0.5em;
 
 	&__img {
-		max-height: 10ch;
+		width: 100%;
+		max-width: 20ch;
 		display: inline-block;
 	}
 }
