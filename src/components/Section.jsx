@@ -17,7 +17,7 @@ export default function Section({
 				<div
 					ref={sidebarMenuButtonRef}
 					className="sidebar-menu-button"
-					onClick={(e) => toggleSidebar(sidebarMenuButtonRef.current, e)}></div>
+					onClick={() => toggleSidebar(sidebarMenuButtonRef.current)}></div>
 				<Sidebar
 					logo={logo}
 					sliderItems={sliderItems}

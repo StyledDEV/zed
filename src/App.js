@@ -34,7 +34,7 @@ export default function App() {
 		});
 	};
 
-	const toggleSidebar = (button, event) => {
+	const toggleSidebar = (button) => {
 		const sidebar = button.nextSibling;
 		button.classList.toggle("active");
 		sidebar.classList.toggle("active");
