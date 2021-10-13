@@ -1,18 +1,20 @@
+import { SliderItemImg, SkillImg } from "./Images";
+
 const ComboData = [
 	{
 		id: 1,
 		name: "Combo",
 		difficulty: "very easy",
-		image: `combo-1.png`,
+		image: `${SliderItemImg}combo-1.png`,
 		videoId: "8S1T7SPs9K4",
 		steps: [
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 		],
 	},
@@ -20,16 +22,16 @@ const ComboData = [
 		id: 2,
 		name: "Combo",
 		difficulty: "very easy",
-		image: `combo-2.png`,
+		image: `${SliderItemImg}combo-2.png`,
 		videoId: "te1kOyN21G0",
 		steps: [
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 		],
 	},
@@ -37,16 +39,16 @@ const ComboData = [
 		id: 3,
 		name: "Combo",
 		difficulty: "easy",
-		image: `combo-3.png`,
+		image: `${SliderItemImg}combo-3.png`,
 		videoId: "IRDaweQjsXk",
 		steps: [
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 		],
 	},
@@ -54,16 +56,16 @@ const ComboData = [
 		id: 4,
 		name: "Combo",
 		difficulty: "easy",
-		image: `combo-4.png`,
+		image: `${SliderItemImg}combo-4.png`,
 		videoId: "Wxbus0tzLQ0",
 		steps: [
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 		],
 	},
@@ -71,16 +73,16 @@ const ComboData = [
 		id: 5,
 		name: "Combo",
 		difficulty: "easy",
-		image: `combo-5.png`,
+		image: `${SliderItemImg}combo-5.png`,
 		videoId: "o1sX2f_EYU4",
 		steps: [
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 		],
 	},
@@ -88,16 +90,16 @@ const ComboData = [
 		id: 6,
 		name: "Combo",
 		difficulty: "easy",
-		image: `combo-6.png`,
+		image: `${SliderItemImg}combo-6.png`,
 		videoId: "Jjxa8NQ_JWg",
 		steps: [
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 		],
 	},
@@ -105,20 +107,20 @@ const ComboData = [
 		id: 7,
 		name: "Combo",
 		difficulty: "easy",
-		image: `combo-7.png`,
+		image: `${SliderItemImg}combo-7.png`,
 		videoId: "DPmRE_Pg5cA",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 		],
 	},
@@ -126,16 +128,16 @@ const ComboData = [
 		id: 8,
 		name: "Combo",
 		difficulty: "easy",
-		image: `combo-8.png`,
+		image: `${SliderItemImg}combo-8.png`,
 		videoId: "RlsiIF6HNzE",
 		steps: [
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 		],
 	},
@@ -143,20 +145,20 @@ const ComboData = [
 		id: 9,
 		name: "Combo",
 		difficulty: "easy",
-		image: `combo-9.png`,
+		image: `${SliderItemImg}combo-9.png`,
 		videoId: "YgdVh5D6fNA",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 		],
 	},
@@ -164,28 +166,28 @@ const ComboData = [
 		id: 10,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-10.png`,
+		image: `${SliderItemImg}combo-10.png`,
 		videoId: "ilcUplZMkAg",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 		],
 	},
@@ -193,32 +195,32 @@ const ComboData = [
 		id: 11,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-11.png`,
+		image: `${SliderItemImg}combo-11.png`,
 		videoId: "ilcUplZMkAg",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 		],
 	},
@@ -226,32 +228,32 @@ const ComboData = [
 		id: 12,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-12.png`,
+		image: `${SliderItemImg}combo-12.png`,
 		videoId: "qptsX0oJGck",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 		],
 	},
@@ -259,24 +261,24 @@ const ComboData = [
 		id: 13,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-13.png`,
+		image: `${SliderItemImg}combo-13.png`,
 		videoId: "Y2xUvN4aCgo",
 		steps: [
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 		],
 	},
@@ -284,24 +286,24 @@ const ComboData = [
 		id: 14,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-14.png`,
+		image: `${SliderItemImg}combo-14.png`,
 		videoId: "zDncvZxIdpc",
 		steps: [
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 		],
 	},
@@ -309,28 +311,28 @@ const ComboData = [
 		id: 15,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-15.png`,
+		image: `${SliderItemImg}combo-15.png`,
 		videoId: "jU7yqQ5GZNg",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 		],
 	},
@@ -338,28 +340,28 @@ const ComboData = [
 		id: 16,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-16.png`,
+		image: `${SliderItemImg}combo-16.png`,
 		videoId: "w-pY0TinVEA",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 		],
 	},
@@ -367,32 +369,32 @@ const ComboData = [
 		id: 17,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-17.png`,
+		image: `${SliderItemImg}combo-17.png`,
 		videoId: "kNcqsd5BCdM",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 		],
 	},
@@ -400,36 +402,36 @@ const ComboData = [
 		id: 18,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-18.png`,
+		image: `${SliderItemImg}combo-18.png`,
 		videoId: "FpZUX_Lsb0k",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 		],
 	},
@@ -437,36 +439,36 @@ const ComboData = [
 		id: 19,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-19.png`,
+		image: `${SliderItemImg}combo-19.png`,
 		videoId: "nLd8OSVY9eA",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 		],
 	},
@@ -474,28 +476,28 @@ const ComboData = [
 		id: 20,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-20.png`,
+		image: `${SliderItemImg}combo-20.png`,
 		videoId: "SZP0qcT4ePo",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 		],
 	},
@@ -503,40 +505,40 @@ const ComboData = [
 		id: 21,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-21.png`,
+		image: `${SliderItemImg}combo-21.png`,
 		videoId: "U88b2BPFQBg",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 		],
 	},
@@ -544,40 +546,40 @@ const ComboData = [
 		id: 22,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-22.png`,
+		image: `${SliderItemImg}combo-22.png`,
 		videoId: "wWz040DkYeo",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 		],
 	},
@@ -585,40 +587,40 @@ const ComboData = [
 		id: 23,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-23.png`,
+		image: `${SliderItemImg}combo-23.png`,
 		videoId: "f4L9Qui24lc",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 		],
 	},
@@ -626,32 +628,32 @@ const ComboData = [
 		id: 24,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-24.png`,
+		image: `${SliderItemImg}combo-24.png`,
 		videoId: "e2g_NNY6XfA",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 		],
 	},
@@ -659,36 +661,36 @@ const ComboData = [
 		id: 25,
 		name: "Combo",
 		difficulty: "hard",
-		image: `combo-25.png`,
+		image: `${SliderItemImg}combo-25.png`,
 		videoId: "C2ANDIYqP2M",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 		],
 	},
@@ -696,40 +698,40 @@ const ComboData = [
 		id: 26,
 		name: "Combo",
 		difficulty: "very hard",
-		image: `combo-26.png`,
+		image: `${SliderItemImg}combo-26.png`,
 		videoId: "nvlM8LmdExM",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 		],
 	},
@@ -737,28 +739,28 @@ const ComboData = [
 		id: 27,
 		name: "Combo",
 		difficulty: "easy",
-		image: `combo-27.png`,
+		image: `${SliderItemImg}combo-27.png`,
 		videoId: "tCZnvgUFQDY",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 		],
 	},
@@ -766,36 +768,36 @@ const ComboData = [
 		id: 28,
 		name: "Combo",
 		difficulty: "hard",
-		image: `combo-28.png`,
+		image: `${SliderItemImg}combo-28.png`,
 		videoId: "ePgSXzwVEdA",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 		],
 	},
@@ -803,32 +805,32 @@ const ComboData = [
 		id: 29,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-29.png`,
+		image: `${SliderItemImg}combo-29.png`,
 		videoId: "XgBJlPvlvuI",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 		],
 	},
@@ -836,44 +838,44 @@ const ComboData = [
 		id: 30,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-30.png`,
+		image: `${SliderItemImg}combo-30.png`,
 		videoId: "4-MV-gHjQyI",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 		],
 	},
@@ -881,44 +883,44 @@ const ComboData = [
 		id: 31,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-31.png`,
+		image: `${SliderItemImg}combo-31.png`,
 		videoId: "8EDRZuO9i3E",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `ww.png`,
+				skillImage: `${SkillImg}ww.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 		],
 	},
@@ -926,36 +928,36 @@ const ComboData = [
 		id: 32,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-32.png`,
+		image: `${SliderItemImg}combo-32.png`,
 		videoId: "fPAjnJtLwuQ",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 		],
 	},
@@ -963,44 +965,44 @@ const ComboData = [
 		id: 33,
 		name: "Combo",
 		difficulty: "hard",
-		image: `combo-33.png`,
+		image: `${SliderItemImg}combo-33.png`,
 		videoId: "5_HrQtJbXlM",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 		],
 	},
@@ -1008,44 +1010,44 @@ const ComboData = [
 		id: 34,
 		name: "Combo",
 		difficulty: "hard",
-		image: `combo-34.png`,
+		image: `${SliderItemImg}combo-34.png`,
 		videoId: "Ay_CV17tg-k",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 		],
 	},
@@ -1053,48 +1055,48 @@ const ComboData = [
 		id: 35,
 		name: "Combo",
 		difficulty: "hard",
-		image: `combo-35.png`,
+		image: `${SliderItemImg}combo-35.png`,
 		videoId: "B89ql75LvVc",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 		],
 	},
@@ -1102,44 +1104,44 @@ const ComboData = [
 		id: 36,
 		name: "Combo",
 		difficulty: "very hard",
-		image: `combo-36.png`,
+		image: `${SliderItemImg}combo-36.png`,
 		videoId: "vFNAJMqZmsc",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 		],
 	},
@@ -1147,36 +1149,36 @@ const ComboData = [
 		id: 37,
 		name: "Combo",
 		difficulty: "very hard",
-		image: `combo-37.png`,
+		image: `${SliderItemImg}combo-37.png`,
 		videoId: "QBb94eEUl9A",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 		],
 	},
@@ -1184,32 +1186,32 @@ const ComboData = [
 		id: 38,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-38.png`,
+		image: `${SliderItemImg}combo-38.png`,
 		videoId: "_4mXISxIWFM",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 		],
 	},
@@ -1217,44 +1219,44 @@ const ComboData = [
 		id: 39,
 		name: "Combo",
 		difficulty: "medium",
-		image: `combo-39.png`,
+		image: `${SliderItemImg}combo-39.png`,
 		videoId: "zA6ADkj1nzg",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 		],
 	},
@@ -1262,44 +1264,44 @@ const ComboData = [
 		id: 40,
 		name: "Combo",
 		difficulty: "hard",
-		image: `combo-40.png`,
+		image: `${SliderItemImg}combo-40.png`,
 		videoId: "-WDjWtvxFdg",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 		],
 	},
@@ -1307,40 +1309,40 @@ const ComboData = [
 		id: 41,
 		name: "Combo",
 		difficulty: "hard",
-		image: `combo-41.png`,
+		image: `${SliderItemImg}combo-41.png`,
 		videoId: "j0L7N2bQdJs",
 		steps: [
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "AA",
-				skillImage: `aa.png`,
+				skillImage: `${SkillImg}aa.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 		],
 	},
@@ -1348,40 +1350,40 @@ const ComboData = [
 		id: 42,
 		name: "Combo",
 		difficulty: "hard",
-		image: `combo-42.png`,
+		image: `${SliderItemImg}combo-42.png`,
 		videoId: "omxdaV3bo6A",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 		],
 	},
@@ -1389,48 +1391,48 @@ const ComboData = [
 		id: 43,
 		name: "Combo",
 		difficulty: "very hard",
-		image: `combo-43.png`,
+		image: `${SliderItemImg}combo-43.png`,
 		videoId: "FQmOiLIiZ_I",
 		steps: [
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 		],
 	},
@@ -1438,55 +1440,55 @@ const ComboData = [
 		id: 44,
 		name: "Combo",
 		difficulty: "hard",
-		image: `combo-44.png`,
+		image: `${SliderItemImg}combo-44.png`,
 		videoId: "3r3UZykVJ_Y",
 		steps: [
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Flash",
-				skillImage: `flash.png`,
+				skillImage: `${SkillImg}flash.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "R",
-				skillImage: `r.png`,
+				skillImage: `${SkillImg}r.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "Q",
-				skillImage: `q.png`,
+				skillImage: `${SkillImg}q.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "E",
-				skillImage: `e.png`,
+				skillImage: `${SkillImg}e.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 			{
 				skillName: "W",
-				skillImage: `w.png`,
+				skillImage: `${SkillImg}w.png`,
 			},
 		],
 	},
 ];
 
-export default ComboData;
+export { ComboData };
